@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Яким Электрикс — Электромонтажные работы в Кирове и области</title>
+  <meta name="description" content="Яким Электрикс — профессиональный электромонтаж в Кирове и области. Домовая, промышленная и ландшафтная электрика. Быстро, надёжно, с гарантией." />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#" class="logo">
+        <span class="logo__bolt">⚡</span>
+        <span class="logo__text">Яким <strong>Электрикс</strong></span>
+      </a>
+      <nav class="nav" id="nav">
+        <a href="#services" class="nav__link">Услуги</a>
+        <a href="#portfolio" class="nav__link">Портфолио</a>
+        <a href="#about" class="nav__link">О нас</a>
+        <a href="#reviews" class="nav__link">Отзывы</a>
+        <a href="#contacts" class="nav__link">Контакты</a>
+      </nav>
+      <a href="tel:+78332000000" class="header__phone">+7 (8332) 00-00-00</a>
+      <button class="burger" id="burger" aria-label="Меню">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero__bg"></div>
+    <div class="container hero__inner">
+      <div class="hero__content">
+        <p class="hero__label">Киров и область</p>
+        <h1 class="hero__title">Профессиональный<br><span>электромонтаж</span><br>под ключ</h1>
+        <p class="hero__desc">Домовая, промышленная и ландшафтная электрика. Опыт 15 лет. Гарантия на все виды работ.</p>
+        <div class="hero__btns">
+          <a href="#form" class="btn btn--primary">Оставить заявку</a>
+          <a href="#services" class="btn btn--outline">Наши услуги</a>
+        </div>
+      </div>
+      <div class="hero__image">
+        <div class="hero__img-wrap">
+          <div class="hero__icon-big">⚡</div>
+        </div>
+      </div>
+    </div>
+    <div class="hero__stats">
+      <div class="container hero__stats-inner">
+        <div class="stat-item">
+          <span class="stat-item__num" data-count="500">0</span><span class="stat-item__plus">+</span>
+          <span class="stat-item__label">объектов сдано</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-item__num" data-count="15">0</span>
+          <span class="stat-item__label">лет опыта</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-item__num" data-count="300">0</span><span class="stat-item__plus">+</span>
+          <span class="stat-item__label">довольных клиентов</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-item__num" data-count="100">0</span><span class="stat-item__pct">%</span>
+          <span class="stat-item__label">гарантия качества</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="services" id="services">
+    <div class="container">
+      <div class="section-head">
+        <span class="section-label">Что мы делаем</span>
+        <h2 class="section-title">Наши услуги</h2>
+        <p class="section-desc">Полный спектр электромонтажных работ для любых задач</p>
+      </div>
+      <div class="services__tabs">
+        <button class="tab-btn tab-btn--active" data-tab="home">🏠 Домовая</button>
+        <button class="tab-btn" data-tab="industrial">🏭 Промышленная</button>
+        <button class="tab-btn" data-tab="landscape">🌿 Ландшафтная</button>
+      </div>
+      <div class="services__content">
+
+        <!-- Домовая -->
+        <div class="tab-content tab-content--active" id="tab-home">
+          <div class="services__grid">
+            <div class="service-card">
+              <div class="service-card__icon">🔌</div>
+              <h3>Электромонтаж под ключ</h3>
+              <p>Полная разводка проводки в квартирах и частных домах по проекту или по вашим пожеланиям.</p>
+            </div>
+            <div class="service-card">
+              <div class="service-card__icon">⚙️</div>
+              <h3>Монтаж щитков и автоматов</h3>
+              <p>Установка и сборка электрощитов, замена устаревших автоматов, УЗО и дифавтоматов.</p>
+            </div>
+            <div class="service-card">
+              <div class="service-card__icon">💡</div>
+              <h3>Розетки и освещение</h3>
+              <p>Установка розеток, выключателей, светильников, люстр, LED-лент и умного освещения.</p>
+            </div>
+            <div class="service-card">
+              <div class="service-card__icon">🔥</div>
+              <h3>Тёплый пол</h3>
+              <p>Монтаж электрического тёплого пола, терморегуляторов под любое напольное покрытие.</p>
+            </div>
+            <div class="service-card">
+              <div class="service-card__icon">🌡️</div>
+              <h3>Подключение техники</h3>
+              <p>Подключение электроплит, духовых шкафов, бойлеров, кондиционеров, стиральных машин.</p>
+            </div>
+            <div class="service-card">
+              <div class="service-card__icon">🛡️</div>
+              <h3>Заземление</h3>
+              <p>Монтаж контура заземления, защитное заземление бытовой и встроенной техники.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Промышленная -->
+        <div class="tab-content" id="tab-industrial">
+          <div class="services__grid">
+            <div class="service-card">
+              <div class="service-card__icon">🏗️</div>
+              <h3>Силовые кабельные линии</h3>
+              <p>Прокладка силовых кабелей в лотках, трубах и кабельных коробах на производственных объектах.</p>
+            </div>
+            <div class="service-card">
+              <div class="service-card__icon">⚡</div>
+              <h3>Трансформаторные подстанции</h3>
+              <p>Монтаж и обслуживание трансформаторных подстанций, КТП, РУ-10/0,4 кВ.</p>
+            </div>
+            <div class="service-card">
+              <div class="service-card__icon">📦</div>
+              <h3>Распределительные щиты</h3>
+              <p>Монтаж ГРЩ, ВРУ, ШРУ, АВР. Сборка и монтаж щитов управления и автоматики.</p>
+            </div>
+            <div class="service-card">
+              <div class="service-card__icon">⛈️</div>
+              <h3>Молниезащита</h3>
+              <p>Проектирование и монтаж систем молниезащиты и заземления для промышленных объектов.</p>
+            </div>
+            <div class="service-card">
+              <div class="service-card__icon">🔧</div>
+              <h3>Наладка оборудования</h3>
+              <p>Пусконаладочные работы электрооборудования, двигателей, пультов управления.</p>
+            </div>
+            <div class="service-card">
+              <div class="service-card__icon">📐</div>
+              <h3>Проектирование</h3>
+              <p>Разработка проектов электроснабжения промышленных и коммерческих объектов.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Ландшафтная -->
+        <div class="tab-content" id="tab-landscape">
+          <div class="services__grid">
+            <div class="service-card">
+              <div class="service-card__icon">🌙</div>
+              <h3>Освещение участков</h3>
+              <p>Проектирование и монтаж освещения садов, парков, придомовых территорий и аллей.</p>
+            </div>
+            <div class="service-card">
+              <div class="service-card__icon">🏡</div>
+              <h3>Подсветка фасадов</h3>
+              <p>Архитектурная подсветка фасадов зданий, деревьев, водоёмов, декоративных элементов.</p>
+            </div>
+            <div class="service-card">
+              <div class="service-card__icon">🔦</div>
+              <h3>Уличные фонари и прожекторы</h3>
+              <p>Монтаж опор освещения, фонарей, LED-прожекторов и уличных светильников IP65+.</p>
+            </div>
+            <div class="service-card">
+              <div class="service-card__icon">🌊</div>
+              <h3>Подключение фонтанов</h3>
+              <p>Электроснабжение фонтанов, систем автоматического полива и водных объектов.</p>
+            </div>
+            <div class="service-card">
+              <div class="service-card__icon">🤖</div>
+              <h3>Автоматизация освещения</h3>
+              <p>Системы автоматического управления наружным освещением — датчики движения, таймеры, умный свет.</p>
+            </div>
+            <div class="service-card">
+              <div class="service-card__icon">🎄</div>
+              <h3>Декоративная подсветка</h3>
+              <p>Праздничная, сезонная и декоративная подсветка территорий, витрин, вывесок.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="services__cta">
+        <a href="#form" class="btn btn--primary">Рассчитать стоимость</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY US -->
+  <section class="why" id="about">
+    <div class="container">
+      <div class="section-head">
+        <span class="section-label">Наши преимущества</span>
+        <h2 class="section-title">Почему выбирают нас</h2>
+      </div>
+      <div class="why__grid">
+        <div class="why-card">
+          <div class="why-card__num">01</div>
+          <div class="why-card__icon">🏆</div>
+          <h3>15 лет опыта</h3>
+          <p>Выполняем работы с 2010 года. За это время сдали более 500 объектов в Кирове и области.</p>
+        </div>
+        <div class="why-card">
+          <div class="why-card__num">02</div>
+          <div class="why-card__icon">📜</div>
+          <h3>Лицензии и допуски</h3>
+          <p>Все необходимые лицензии, допуски СРО и квалификационные удостоверения электриков.</p>
+        </div>
+        <div class="why-card">
+          <div class="why-card__num">03</div>
+          <div class="why-card__icon">⏱️</div>
+          <h3>Соблюдение сроков</h3>
+          <p>Чётко выполняем договорные сроки. Штрафные санкции за просрочку прописаны в договоре.</p>
+        </div>
+        <div class="why-card">
+          <div class="why-card__num">04</div>
+          <div class="why-card__icon">🛡️</div>
+          <h3>Гарантия 2 года</h3>
+          <p>Даём гарантию на все виды выполненных работ. Устраняем замечания бесплатно.</p>
+        </div>
+        <div class="why-card">
+          <div class="why-card__num">05</div>
+          <div class="why-card__icon">📋</div>
+          <h3>Работаем по договору</h3>
+          <p>Фиксируем стоимость и объёмы в договоре. Никаких скрытых доплат и неожиданных счетов.</p>
+        </div>
+        <div class="why-card">
+          <div class="why-card__num">06</div>
+          <div class="why-card__icon">🔍</div>
+          <h3>Бесплатный выезд</h3>
+          <p>Бесплатный выезд специалиста для оценки объёма работ и составления сметы по Кирову.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PORTFOLIO -->
+  <section class="portfolio" id="portfolio">
+    <div class="container">
+      <div class="section-head">
+        <span class="section-label">Наши работы</span>
+        <h2 class="section-title">Портфолио</h2>
+        <p class="section-desc">Примеры выполненных объектов в Кирове и области</p>
+      </div>
+      <div class="portfolio__filters">
+        <button class="filter-btn filter-btn--active" data-filter="all">Все</button>
+        <button class="filter-btn" data-filter="home">Домовая</button>
+        <button class="filter-btn" data-filter="industrial">Промышленная</button>
+        <button class="filter-btn" data-filter="landscape">Ландшафтная</button>
+      </div>
+      <div class="portfolio__grid" id="portfolioGrid">
+        <div class="portfolio-card" data-cat="home">
+          <div class="portfolio-card__img portfolio-card__img--1">
+            <div class="portfolio-card__overlay">
+              <span>Электромонтаж квартиры 3-комн.</span>
+            </div>
+          </div>
+          <div class="portfolio-card__body">
+            <span class="portfolio-card__tag">Домовая</span>
+            <h4>Квартира на ул. Ленина</h4>
+            <p>Полная замена проводки, монтаж нового щитка, установка 45 точек освещения</p>
+          </div>
+        </div>
+        <div class="portfolio-card" data-cat="industrial">
+          <div class="portfolio-card__img portfolio-card__img--2">
+            <div class="portfolio-card__overlay">
+              <span>Электроснабжение склада 2000 м²</span>
+            </div>
+          </div>
+          <div class="portfolio-card__body">
+            <span class="portfolio-card__tag">Промышленная</span>
+            <h4>Складской комплекс</h4>
+            <p>Монтаж силовых линий, освещение, ГРЩ, система молниезащиты</p>
+          </div>
+        </div>
+        <div class="portfolio-card" data-cat="landscape">
+          <div class="portfolio-card__img portfolio-card__img--3">
+            <div class="portfolio-card__overlay">
+              <span>Освещение загородного участка</span>
+            </div>
+          </div>
+          <div class="portfolio-card__body">
+            <span class="portfolio-card__tag">Ландшафтная</span>
+            <h4>Коттедж в Нолинском районе</h4>
+            <p>Подсветка фасада, садовые фонари, автоматическое управление освещением</p>
+          </div>
+        </div>
+        <div class="portfolio-card" data-cat="home">
+          <div class="portfolio-card__img portfolio-card__img--4">
+            <div class="portfolio-card__overlay">
+              <span>Частный дом под ключ</span>
+            </div>
+          </div>
+          <div class="portfolio-card__body">
+            <span class="portfolio-card__tag">Домовая</span>
+            <h4>Дом 180 м² в Кирове</h4>
+            <p>Разводка от щитка, тёплый пол, умный свет, заземление</p>
+          </div>
+        </div>
+        <div class="portfolio-card" data-cat="industrial">
+          <div class="portfolio-card__img portfolio-card__img--5">
+            <div class="portfolio-card__overlay">
+              <span>Производственный цех</span>
+            </div>
+          </div>
+          <div class="portfolio-card__body">
+            <span class="portfolio-card__tag">Промышленная</span>
+            <h4>Завод стройматериалов</h4>
+            <p>КТП 630 кВА, кабельные лотки 1,2 км, пусконаладка оборудования</p>
+          </div>
+        </div>
+        <div class="portfolio-card" data-cat="landscape">
+          <div class="portfolio-card__img portfolio-card__img--6">
+            <div class="portfolio-card__overlay">
+              <span>Освещение парка</span>
+            </div>
+          </div>
+          <div class="portfolio-card__body">
+            <span class="portfolio-card__tag">Ландшафтная</span>
+            <h4>Городской парк Киров</h4>
+            <p>35 опор освещения, декоративная подсветка, кабель в земле 800 м</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- REVIEWS -->
+  <section class="reviews" id="reviews">
+    <div class="container">
+      <div class="section-head">
+        <span class="section-label">Отзывы</span>
+        <h2 class="section-title">Что говорят клиенты</h2>
+      </div>
+      <div class="reviews__grid">
+        <div class="review-card">
+          <div class="review-card__stars">★★★★★</div>
+          <p class="review-card__text">«Делали электрику в новостройке. Ребята приехали вовремя, всё сделали аккуратно, убрали за собой. Щиток собрали красиво, проводка спрятана в штробах ровно. Рекомендую!»</p>
+          <div class="review-card__author">
+            <div class="review-card__avatar">АК</div>
+            <div>
+              <strong>Алексей К.</strong>
+              <span>Квартира, Киров</span>
+            </div>
+          </div>
+        </div>
+        <div class="review-card">
+          <div class="review-card__stars">★★★★★</div>
+          <p class="review-card__text">«Заказывали электроснабжение для нашего склада. Работа выполнена в срок, документация передана в полном объёме. Будем сотрудничать и дальше.»</p>
+          <div class="review-card__author">
+            <div class="review-card__avatar">НМ</div>
+            <div>
+              <strong>Наталья М.</strong>
+              <span>Директор ООО «СтройГрупп»</span>
+            </div>
+          </div>
+        </div>
+        <div class="review-card">
+          <div class="review-card__stars">★★★★★</div>
+          <p class="review-card__text">«Делали подсветку участка и подъездной дорожки. Результат превзошёл ожидания — всё красиво, датчики работают чётко. Цена адекватная, мастера вежливые.»</p>
+          <div class="review-card__author">
+            <div class="review-card__avatar">СП</div>
+            <div>
+              <strong>Сергей П.</strong>
+              <span>Коттедж, Кирово-Чепецк</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FORM -->
+  <section class="form-section" id="form">
+    <div class="container">
+      <div class="form-section__inner">
+        <div class="form-section__info">
+          <span class="section-label">Заявка</span>
+          <h2 class="section-title">Рассчитайте стоимость<br>бесплатно</h2>
+          <p>Оставьте заявку — наш специалист свяжется с вами в течение 30 минут и ответит на все вопросы.</p>
+          <ul class="form-section__list">
+            <li>✅ Выезд на объект бесплатно</li>
+            <li>✅ Смета в день обращения</li>
+            <li>✅ Работаем по всему Кирову и области</li>
+            <li>✅ Договор с фиксированной ценой</li>
+          </ul>
+          <div class="form-section__contacts">
+            <a href="tel:+78332000000" class="contact-link">📞 +7 (8332) 00-00-00</a>
+            <a href="https://t.me/yakimelectrics" class="contact-link">✈️ Telegram</a>
+            <a href="https://wa.me/78332000000" class="contact-link">💬 WhatsApp</a>
+          </div>
+        </div>
+        <form class="form" id="contactForm" novalidate>
+          <div class="form__group">
+            <label for="name">Ваше имя *</label>
+            <input type="text" id="name" name="name" placeholder="Иван Иванов" required />
+          </div>
+          <div class="form__group">
+            <label for="phone">Телефон *</label>
+            <input type="tel" id="phone" name="phone" placeholder="+7 (___) ___-__-__" required />
+          </div>
+          <div class="form__group">
+            <label for="service">Тип услуги</label>
+            <select id="service" name="service">
+              <option value="">Выберите услугу</option>
+              <option value="home">Домовая электрика</option>
+              <option value="industrial">Промышленная электрика</option>
+              <option value="landscape">Ландшафтная электрика</option>
+              <option value="other">Другое</option>
+            </select>
+          </div>
+          <div class="form__group">
+            <label for="message">Описание задачи</label>
+            <textarea id="message" name="message" placeholder="Опишите кратко, что нужно сделать..." rows="4"></textarea>
+          </div>
+          <button type="submit" class="btn btn--primary btn--full">Отправить заявку</button>
+          <p class="form__privacy">Нажимая кнопку, вы соглашаетесь с <a href="#">политикой конфиденциальности</a></p>
+          <div class="form__success" id="formSuccess">
+            ✅ Заявка принята! Мы свяжемся с вами в течение 30 минут.
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACTS -->
+  <section class="contacts" id="contacts">
+    <div class="container">
+      <div class="section-head">
+        <span class="section-label">Где мы</span>
+        <h2 class="section-title">Контакты</h2>
+      </div>
+      <div class="contacts__inner">
+        <div class="contacts__info">
+          <div class="contact-item">
+            <span class="contact-item__icon">📍</span>
+            <div>
+              <strong>Адрес</strong>
+              <p>г. Киров, ул. Ленина, д. 1, офис 10</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <span class="contact-item__icon">📞</span>
+            <div>
+              <strong>Телефон</strong>
+              <p><a href="tel:+78332000000">+7 (8332) 00-00-00</a></p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <span class="contact-item__icon">✉️</span>
+            <div>
+              <strong>Email</strong>
+              <p><a href="mailto:info@yakim-electrics.ru">info@yakim-electrics.ru</a></p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <span class="contact-item__icon">⏰</span>
+            <div>
+              <strong>Режим работы</strong>
+              <p>Пн–Пт: 8:00–20:00<br>Сб–Вс: 9:00–18:00</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <span class="contact-item__icon">🗺️</span>
+            <div>
+              <strong>Зона обслуживания</strong>
+              <p>Киров и вся Кировская область</p>
+            </div>
+          </div>
+        </div>
+        <div class="contacts__map">
+          <div class="map-placeholder">
+            <span>🗺️</span>
+            <p>г. Киров и Кировская область</p>
+            <small>Карта загружается при подключении к интернету</small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <a href="#" class="logo">
+          <span class="logo__bolt">⚡</span>
+          <span class="logo__text">Яким <strong>Электрикс</strong></span>
+        </a>
+        <p>Профессиональный электромонтаж в Кирове и области с 2010 года.</p>
+      </div>
+      <div class="footer__links">
+        <h4>Услуги</h4>
+        <a href="#services">Домовая электрика</a>
+        <a href="#services">Промышленная электрика</a>
+        <a href="#services">Ландшафтная электрика</a>
+      </div>
+      <div class="footer__links">
+        <h4>Компания</h4>
+        <a href="#about">О нас</a>
+        <a href="#portfolio">Портфолио</a>
+        <a href="#reviews">Отзывы</a>
+        <a href="#contacts">Контакты</a>
+      </div>
+      <div class="footer__contacts">
+        <h4>Связаться с нами</h4>
+        <a href="tel:+78332000000">+7 (8332) 00-00-00</a>
+        <a href="mailto:info@yakim-electrics.ru">info@yakim-electrics.ru</a>
+        <div class="footer__socials">
+          <a href="#" class="social-btn">TG</a>
+          <a href="#" class="social-btn">WA</a>
+          <a href="#" class="social-btn">VK</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <div class="container">
+        <p>© 2026 Яким Электрикс. Все права защищены. Киров и Кировская область.</p>
+        <a href="#">Политика конфиденциальности</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating CTA -->
+  <a href="tel:+78332000000" class="float-call" title="Позвонить">📞</a>
+
+  <script src="script.js"></script>
+</body>
+</html>
